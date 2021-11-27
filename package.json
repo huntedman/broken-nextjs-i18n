@@ -2,15 +2,17 @@
   "name": "broken-nextjs-i18n",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "next dev & npm run typesafe-i18n",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "typesafe-i18n": "typesafe-i18n"
   },
   "dependencies": {
     "next": "12.0.4",
     "react": "17.0.2",
-    "react-dom": "17.0.2"
+    "react-dom": "17.0.2",
+    "typesafe-i18n": "^2.54.2"
   },
   "devDependencies": {
     "@types/node": "16.11.10",
